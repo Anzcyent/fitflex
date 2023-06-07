@@ -1,0 +1,62 @@
+.responsive-header {
+  .logo-section {
+    width: 40%;
+
+    img {
+      width: 50px;
+    }
+  }
+
+  .icon-section {
+    width: 20%;
+    svg {
+      color: #fff;
+      &:hover {
+        opacity: 0.8;
+      }
+      &:active {
+        transform: scale(0.98);
+      }
+    }
+  }
+
+  .responsive-menu {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    height: 50%;
+    width: 30vw;
+    background-color: #000;
+    font-size: 10px;
+    border-bottom-left-radius: 15px;
+    animation: animate_menu 300ms ease-in;
+    z-index: 1;
+  }
+}
+
+@keyframes animate_menu {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+
+  20% {
+    opacity: 0.2;
+  }
+
+  40% {
+    opacity: 0.4;
+  }
+
+  60% {
+    opacity: 0.6;
+  }
+
+  80% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

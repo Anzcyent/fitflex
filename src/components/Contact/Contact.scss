@@ -1,0 +1,411 @@
+.contact {
+  height: 60vh;
+  padding: 35px;
+  width: 80%;
+  margin: auto;
+
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+
+    .title {
+      color: orange;
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+
+    .primary-text {
+      font-size: 2rem;
+      color: #1e4176;
+      font-weight: bold;
+    }
+
+    .briefing {
+      opacity: .7;
+    }
+
+    .contact-boxes {
+      display: flex;
+      margin-top: 15px;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 50px;
+      width: 100%;
+
+      .contact-box {
+        width: 45%;
+        box-shadow: 0px 0px 1px #1e4176;
+        padding: 10px;
+
+        .contact-box-header {
+          .icon-area {
+            width: 25%;
+
+            svg {
+              background-color: #eeedfd;
+              padding: 5px;
+              font-size: 1.7rem;
+              color: #3e60f3;
+              border-radius: 5px;
+            }
+          }
+
+          .info {
+            width: 75%;
+
+            span {
+              &:nth-child(1) {
+                font-weight: bold;
+                letter-spacing: 1px;
+              }
+
+              &:nth-child(2) {
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+
+        .contact-box-footer {
+          width: 100%;
+          button {
+            width: 80%;
+            border: 0;
+            padding: 10px 0;
+            background-color: #eeedfd;
+            color: #3e60f3;
+            font-weight: 500;
+            cursor: pointer;
+
+            &:hover {
+              opacity: 0.8;
+            }
+
+            &:active {
+              scale: 0.98;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .right-section {
+    height: 50%;
+    width: 50%;
+    margin-left: 10rem;
+
+    img {
+      width: 80%;
+      border-radius: 15rem 15rem 0 0;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+    .contact {
+        flex-direction: column;
+        height: 130vh;
+        width: 100%;
+        margin-top: 5rem;
+        padding: 15px;
+
+        .left-section {
+            width: 100%;
+            height: 50%;
+
+            .title {
+                font-size: .8rem;
+            }
+
+            .primary-text {
+                font-size: 1.3rem;
+            }
+
+            .briefing {
+                font-size: 9px;
+            }
+
+            .contact-boxes {
+                flex-direction: column;
+                width: 100%;
+
+                .contact-box {
+                    width: 100%;
+                    margin: 0;
+                    font-size: .6rem;
+
+                    box-shadow: 0px 0px 3px #1e4176;
+                }
+
+                .contact-box-footer {
+                    button {
+                        font-size: .6rem !important;
+                        width: 50% !important;
+                    }
+                }
+            }
+        }
+
+        .right-section {
+            width: 100%;
+            height: 50%;
+            margin: 0;
+            margin-top: 10rem;
+
+            img {
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .contact {
+        flex-direction: column;
+        height: 190vh;
+        width: 100%;
+        margin-top: 4rem;
+        padding: 15px;
+
+        .left-section {
+            width: 100%;
+            height: 60%;
+
+            .title {
+                font-size: .8rem;
+            }
+
+            .primary-text {
+                font-size: 1.3rem;
+            }
+
+            .briefing {
+                font-size: 9px;
+            }
+
+            .contact-boxes {
+                width: 100%;
+
+                .contact-box {
+                    width: 75%;
+                    margin: 0;
+                    font-size: .8rem;
+
+                    box-shadow: 0px 0px 3px #1e4176;
+                }
+            }
+        }
+
+        .right-section {
+            width: 100%;
+            height: 50%;
+            margin: 0;
+
+            img {
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media (min-width: 376px) and (max-width: 400px) {
+    .contact {
+        flex-direction: column;
+        height: 150vh;
+        width: 100%;
+        margin-top: 4rem;
+        padding: 15px;
+
+        .left-section {
+            width: 100%;
+            height: 60%;
+
+            .title {
+                font-size: .8rem;
+            }
+
+            .primary-text {
+                font-size: 1.3rem;
+            }
+
+            .briefing {
+                font-size: 9px;
+            }
+
+            .contact-boxes {
+                width: 100%;
+
+                .contact-box {
+                    width: 75%;
+                    margin: 0;
+                    font-size: .8rem;
+
+                    box-shadow: 0px 0px 3px #1e4176;
+                }
+            }
+        }
+
+        .right-section {
+            width: 100%;
+            height: 50%;
+            margin: 0;
+
+            img {
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+    .contact {
+        flex-direction: column;
+        height: 140vh;
+        width: 100%;
+        margin-top: 4rem;
+        padding: 15px;
+
+        .left-section {
+            width: 100%;
+            height: 60%;
+
+            .title {
+                font-size: .8rem;
+            }
+
+            .primary-text {
+                font-size: 1.3rem;
+            }
+
+            .briefing {
+                font-size: 9px;
+            }
+
+            .contact-boxes {
+                width: 100%;
+
+                .contact-box {
+                    width: 75%;
+                    margin: 0;
+                    font-size: .8rem;
+
+                    box-shadow: 0px 0px 3px #1e4176;
+                }
+            }
+        }
+
+        .right-section {
+            width: 100%;
+            height: 50%;
+            margin: 0;
+
+            img {
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .contact {
+        height: 160vh;
+
+        .right-section {
+            img {
+                width: 50%;
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 911px) {
+    .contact {
+        flex-direction: column;
+        height: 140vh;
+        width: 100%;
+        padding: 15px;
+
+        .left-section {
+            width: 100%;
+            height: 50%;
+
+            .contact-boxes {
+                width: 100%;
+
+                .contact-box {
+                    width: 75%;
+                    margin: 0;
+                    font-size: .9rem;
+
+                    box-shadow: 0px 0px 3px #1e4176;
+                }
+            }
+        }
+
+        .right-section {
+            width: 100%;
+            height: 50%;
+            margin: 0;
+
+            img {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (min-width: 912px) and (max-width: 1024px) {
+    .contact {
+        width: 100%;
+        
+        .left-section {
+            width: 50%;
+
+            .title {
+                font-size: .9rem;
+            }
+
+            .primary-text {
+                font-size: 1rem;
+            }
+
+            .briefing {
+                font-size: 11px;
+            }
+
+            .contact-boxes {
+                width: 100%;
+
+                .contact-box {
+                    width: 100%;
+                    box-shadow: 0px 0px 5px #1e4176;
+                }
+            }
+        }
+    
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .contact {
+        width: 100%;
+        
+        .left-section {
+            width: 50%;
+
+            .contact-boxes {
+                width: 100%;
+
+                .contact-box {
+                    width: 100%;
+                    box-shadow: 0px 0px 5px #1e4176;
+                }
+            }
+        }
+    
+    }
+}

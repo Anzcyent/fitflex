@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap");
+
+:root {
+  --orange-gradient: linear-gradient(45deg, #ffa500, #ff4500);
+  --blue-gradient: linear-gradient(135deg, #00bfff, #0000ff);
+  --background-primary: #070505;
+  --color-primary: #cccccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+.bg-primary {
+  background-color: var(--background-primary);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-col-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col-evenly {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-col-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner-width {
+  width: 100%;
+}
+
+.circle-image-sm {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+
+.circle-image-md {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+}
+
+.circe-image-lg {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.p-1 {
+  padding: 2px;
+}
+
+.p-2 {
+  padding: 4px;
+}
+
+.p-3 {
+  padding: 6px;
+}
+
+.p-4 {
+  padding: 8px;
+}
+
+.p-5 {
+  padding: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+.button {
+  background: var(--orange-gradient);
+  padding: 8px;
+  border-radius: 4px;
+
+  &:hover {
+    opacity: 0.8;
+    transform: scale(1.04);
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}

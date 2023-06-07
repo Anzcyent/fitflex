@@ -1,0 +1,21 @@
+.header {
+  color: #fff;
+
+  .logo-section {
+    width: 35%;
+
+    img {
+      width: 15%;
+    }
+  }
+
+  nav {
+    width: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: none;
+    }
+}

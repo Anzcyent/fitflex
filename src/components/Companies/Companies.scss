@@ -1,0 +1,24 @@
+.companies {
+    height: 20vh;
+
+    .company {
+        width: 25%;
+
+        img {
+            width: 25%;
+            filter:grayscale(100%);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .companies {
+        width: 100%;
+        flex-direction: column;
+        height: 10%;
+        gap: 1.5rem;
+        .company {
+            width: 50%;
+        }
+    }
+}

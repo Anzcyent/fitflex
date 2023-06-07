@@ -1,0 +1,62 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "FitFusion",
+      "image": "/assets/companies/company_logo_1.png"
+    },
+    {
+      "id": 2,
+      "name": "PowerFlex Gym",
+      "image": "/assets/companies/company_logo_2.png"
+    },
+    {
+      "id": 3,
+      "name": "Phoenix Gym",
+      "image": "/assets/companies/company_logo_3.png"
+    },
+    {
+      "id": 4,
+      "name": "VitalityX Sports Club",
+      "image": "/assets/companies/company_logo_4.png"
+    }
+  ],
+  "trainers": [
+    {
+      "id": 1,
+      "name": "Emily Johnson",
+      "bio": "Certified personal trainer specializing in strength and conditioning. Passionate about helping clients achieve their fitness goals.",
+      "image": "/assets/trainers/trainer_1.png"
+    },
+    {
+      "id": 2,
+      "name": "Alex Ramirez",
+      "bio": "Experienced fitness coach with a background in HIIT training. Dedicated to helping individuals improve their overall health and well-being.",
+      "image": "/assets/trainers/trainer_2.png"
+    },
+    {
+      "id": 3,
+      "name": "Jessica Lee",
+      "bio": "Elite-level trainer with expertise in functional training and weight management. Committed to empowering clients to reach their full potential.",
+      "image": "/assets/trainers/trainer_3.png"
+    },
+    {
+      "id": 4,
+      "name": "Michael Thompson",
+      "bio": "Specialized in sports performance training and injury prevention. Motivated to guide athletes towards peak performance and optimal fitness.",
+      "image": "/assets/trainers/trainer_4.png"
+    },
+    {
+      "id": 5,
+      "name": "Sarah Collins",
+      "bio": "Certified yoga instructor passionate about promoting mindfulness and holistic wellness. Committed to helping clients find balance and inner peace.",
+      "image": "/assets/trainers/trainer_5.png"
+    },
+    {
+      "id": 6,
+      "name": "David Wilson",
+      "bio": "Expert in bodybuilding and physique transformations. Dedicated to coaching clients through customized workout plans and nutrition guidance.",
+      "image": "/assets/trainers/trainer_6.png"
+    }
+  ]
+}
